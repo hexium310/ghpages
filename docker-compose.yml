@@ -3,6 +3,6 @@ services:
   site:
     image: starefossen/github-pages:latest
     volumes:
-      - ./src:/usr/src/app
+      - .:/usr/src/app
     ports:
       - "4000:4000"
